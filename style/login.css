@@ -1,0 +1,51 @@
+body {
+    background-color: #d1d1d1;
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+    width: 20%;
+}
+
+.dados {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.dados input {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    width: 90%;
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.right button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+
+    margin-top: 20px;
+}
+
+.infos img {
+    width: 90%;
+}

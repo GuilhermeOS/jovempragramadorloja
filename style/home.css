@@ -1,0 +1,46 @@
+.promotions {
+    margin: auto;
+    width: 60%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+
+    text-align: center;
+
+    margin: 25px 0;
+}
+
+.products {
+    margin: 20px auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+
+    grid-gap: 50px;
+
+}
+
+.product {
+    text-align: center;
+    background-color: #fff;
+
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.product img {
+    width: 200px;
+    height: 150px;
+}
+
